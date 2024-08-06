@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uomo eCommerce</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- icion -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="bg-black items-center flex justify-between pl-[50px] ">
+        <div class="pr-[50px]"><img src="./images/evnto logo.png" alt=""></div> 
+        <button class="bg-[#3dc238] w-20 rounded-lg ">Buy Now</button>
+    </div>  
+</header> 
+  <header class="bg-white shadow justify-between">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <div class="pl-[50px]">
+        <img src="./images/logo evento.png" alt="">
+    </div>>
+        <nav class="hidden md:flex space-x-6 text-xl">
+            <a href="index.html" class=" hover-link relative text-gray-700">Home</a>
+            <a href="shop.html" class=" hover-link relative text-gray-700">Shop</a>
+            <a href="blog.html" class=" hover-link active-link relative text-gray-700">Blog</a>
+            <a href="pages.html" class=" hover-link relative text-gray-700">Pages</a>
+            <a href="about.html" class=" hover-link relative text-gray-700">About</a>
+            <a href="contact.html" class=" hover-link relative text-gray-700">Contact</a>
+        </nav>
+        <div class="flex items-center space-x-4 md:hidden">
+            <button id="menu-button" class="md:hidden text-gray-700 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <nav id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200 text-center">
+        <a href="index.html" class="block px-4 py-2 text-gray-700 hover-link relative">Home</a>
+        <a href="shop.html" class="block px-4 py-2 text-gray-700 hover-link relative">Shop</a>
+        <a href="blog.html" class="block px-4 py-2 text-gray-700 hover-link active-link relative">Blog</a>
+        <a href="pages.html" class="block px-4 py-2 text-gray-700 hover-link relative">Pages</a>
+        <a href="about.html" class="block px-4 py-2 text-gray-700 hover-link relative">About</a>
+        <a href="contact.html" class="block px-4 py-2 text-gray-700 hover-link relative">Contact</a>
+    </nav>
+</header>
+<!-- hero section -->
+ <!-- 1 -->
+ <section class="hero-section shop-banner py-40 flex flex-col items-center">
+  <div
+    class="container mx-auto mx-20 flex flex-col md:flex-row items-center px-10 space-y-6 md:space-y-0 md:space-x-6 md:pt-6">
+    <div class="">
+      <h2 class="stroke-text text-4xl md:text-5xl lg:text-6xl uppercase font-bold mb-3 xl:mb-4 xl:mb-5">
+        THE &amp; BLOG
+      </h2>
+      <ul class="flex flex-wrap list-none uppercase text-lg md:text-xl">
+        <li class="mr-3 xl:mr-4 pr-1">
+          <a href="#" class="menu-link active">All</a>
+        </li>
+        <li class="mr-3 xl:mr-4 pr-1">
+          <a href="#" class="menu-link">StayHome</a>
+        </li>
+        <li class="mr-3 xl:mr-4 pr-1">
+          <a href="#" class="menu-link">Jackets</a>
+        </li>
+        <li class="mr-3 xl:mr-4 pr-1">
+          <a href="#" class="menu-link">Hoodies</a>
+        </li>
+        <li class="mr-3 xl:mr-4 pr-1">
+          <a href="#" class="menu-link">Men</a>
+        </li>
+        <li class="mr-3 xl:mr-4 pr-1">
+          <a href="#" class="menu-link">Women</a>
+        </li>
+        <li class="mr-3 xl:mr-4 pr-1">
+          <a href="#" class="menu-link">Accessories</a>
+        </li>
+        <li class="mr-3 xl:mr-4 pr-1">
+          <a href="#" class="menu-link">Shoes</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+<!--  card section -->
+<div class="  mt-[30px] mb-[30px]">
+  <div class="container mx-auto p-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <!-- First Card -->
+          <div class="bg-white rounded-lg  overflow-hidden  px-[90px]">
+              <img src="https://uomo-nextjs-ecommerce.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fblog%2Fblog-1.jpg&w=750&q=75" alt="Store" class="w-full">
+              <div class="p-4">
+                  <div class="text-gray-600 text-sm mb-2">
+                      BY ADMIN <span class="text-gray-400">|</span> APRIL 05, 2023
+                  </div>
+                  <h2 class="text-lg font-semibold mb-2">Woman with good shoes is never be ugly place</h2>
+                  <p class="text-gray-700 text-sm mb-4">
+                      Midst one brought greater also morning green saying had good. Open stars day let over gathered, grass face one every light of under.
+                  </p>
+                  <a href="#" class="text-blue-500 hover:underline">CONTINUE READING</a>
+              </div>
+          </div>
+
+          <!-- Second Card -->
+          <div class="bg-white rounded-lg  overflow-hidden  px-[90px]">
+              <img src="https://uomo-nextjs-ecommerce.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fblog%2Fblog-4.jpg&w=750&q=75" alt="Fashion" class="w-full">
+              <div class="p-4">
+                  <div class="text-gray-600 text-sm mb-2">
+                      BY ADMIN <span class="text-gray-400">|</span> APRIL 05, 2023
+                  </div>
+                  <h2 class="text-lg font-semibold mb-2">5 Tips to Increase Your Online Sales</h2>
+                  <p class="text-gray-700 text-sm mb-4">
+                      Midst one brought greater also morning green saying had good. Open stars day let over gathered, grass face one every light of under.
+                  </p>
+                  <a href="#" class="text-blue-500 hover:underline">CONTINUE READING</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!--  card section -->
+<div class="  mt-[30px] mb-[30px]">
+  <div class="container mx-auto p-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <!-- First Card -->
+          <div class="bg-white rounded-lg  overflow-hidden  px-[90px]">
+              <img src="https://uomo-nextjs-ecommerce.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fblog%2Fblog-1.jpg&w=750&q=75" alt="Store" class="w-full">
+              <div class="p-4">
+                  <div class="text-gray-600 text-sm mb-2">
+                      BY ADMIN <span class="text-gray-400">|</span> APRIL 05, 2023
+                  </div>
+                  <h2 class="text-lg font-semibold mb-2">Woman with good shoes is never be ugly place</h2>
+                  <p class="text-gray-700 text-sm mb-4">
+                      Midst one brought greater also morning green saying had good. Open stars day let over gathered, grass face one every light of under.
+                  </p>
+                  <a href="#" class="text-blue-500 hover:underline">CONTINUE READING</a>
+              </div>
+          </div>
+
+          <!-- Second Card -->
+          <div class="bg-white rounded-lg  overflow-hidden  px-[90px]">
+              <img src="https://uomo-nextjs-ecommerce.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fblog%2Fblog-4.jpg&w=750&q=75" alt="Fashion" class="w-full">
+              <div class="p-4">
+                  <div class="text-gray-600 text-sm mb-2">
+                      BY ADMIN <span class="text-gray-400">|</span> APRIL 05, 2023
+                  </div>
+                  <h2 class="text-lg font-semibold mb-2">5 Tips to Increase Your Online Sales</h2>
+                  <p class="text-gray-700 text-sm mb-4">
+                      Midst one brought greater also morning green saying had good. Open stars day let over gathered, grass face one every light of under.
+                  </p>
+                  <a href="#" class="text-blue-500 hover:underline">CONTINUE READING</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+  <!-- Footer Section -->
+  <footer class="bg-[#F8EDE3] text-white py-8">
+    <div class="px-[10%] py-16 bg-grey-200">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center mb-8 md:mb-0">
+                <div class="">
+                    <img src="./images/logo evento.png" alt="logo" class="mb-14">
+                    <p class="text-gray-600">1418 River Drive, Suite 35 Cottonhall United States</p>
+                    <a href="mailto:sale@uomo.com" class="text-gray-600 hover:text-gray-800">sale@uomo.com</a>
+                    <p class="text-gray-600">+1 246-345-0695</p>
+                    <div class="flex flex-row items-center mt-7">
+                        <div class="flex h-5 w-5 mr-3 cursor-pointer brightness-0">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                        <div class="flex h-5 w-5 mr-3 cursor-pointer brightness-0">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="flex h-4 w-4 mr-3 cursor-pointer brightness-0">
+                            <a href="#"><i class="fab fa-twitter" ></i></a>
+                        </div>
+                        <div class="flex h-5 w-5 mr-3 cursor-pointer brightness-0">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-row md:flex-row justify-around md:justify-between items-center w-full md:w-auto">
+                <div class="mr-5">
+                    <h3 class="text-gray-800 font-bold mb-4">COMPANY</h3>
+                    <ul class="space-y-2">
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">About Us</a></li>
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">Careers</a></li>
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">Affiliates</a></li>
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">Blog</a></li>
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">Contact Us</a></li>
+                    </ul>
+                </div>
+    
+                <div class="mr-5">
+                    <h3 class="text-gray-800 font-bold mb-4">SHOP</h3>
+                    <ul class="space-y-2">
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">New Arrivals</a></li>
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">Accessories</a></li>
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">Men</a></li>
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">Women</a></li>
+                    </ul>
+                </div>
+    
+                <div class="mr-5 w-max">
+                    <h3 class="text-gray-800 font-bold mb-4">HELP</h3>
+                    <ul class="space-y-2">
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">Customer Service</a></li>
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">My Account</a></li>
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">Find a Store</a></li>
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">Legal & Privacy</a></li>
+                    </ul>
+                </div>
+    
+    
+            </div>
+            <div class="mt-10 md:m-0">
+                <h3 class="text-gray-800 font-bold text-lg mb-4">SUBSCRIBE</h3>
+                <p class="text-gray-600">Be the first to get the latest news about trends, promotions, and much more!
+                </p>
+                <div class="flex bg-black border">
+                    <input type="email    " placeholder="Your email address"
+                        class="w-full px-3 py-2 border-none ">
+                    <button class="bg-white text-black border-none pr-2">Submit</button>
+                </div>
+                <div>
+                    <ul class="  hidden md:block space-x-2  ">
+                        <button><img src="https://img.icons8.com/?size=48&id=62765&format=png" alt=""></button>
+                        <button><img src="https://img.icons8.com/?size=48&id=13611&format=png" alt=""></button>
+                        <button><img src="https://img.icons8.com/?size=50&id=11079&format=png" alt=""></button>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+   
+    </div>
+    </footer>
+  <script>
+    // JavaScript for toggling the mobile menu
+    const menuButton = document.getElementById('menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uomo eCommerce</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- icion -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="bg-black items-center flex justify-between pl-[50px] ">
+        <div class="pr-[50px]"><img src="./images/evnto logo.png" alt=""></div> 
+        <button class="bg-[#3dc238] w-20 rounded-lg ">Buy Now</button>
+    </div>  
+</header> 
+  <header class="bg-white shadow justify-between">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+        <div class="pl-[50px]">
+            <img src="./images/logo evento.png" alt="">
+        </div>>
+        <nav class="hidden md:flex space-x-6 text-xl">
+            <a href="index.html" class=" hover-link active-link relative text-gray-700">Home</a>
+            <a href="shop.html" class=" hover-link relative text-gray-700">Shop</a>
+            <a href="blog.html" class=" hover-link relative text-gray-700">Blog</a>
+            <a href="pages.html" class=" hover-link relative text-gray-700">Pages</a>
+            <a href="about.html" class=" hover-link relative text-gray-700">About</a>
+            <a href="contact.html" class=" hover-link relative text-gray-700">Contact</a>
+        </nav>
+        <div class="flex items-center space-x-4 md:hidden">
+            <button id="menu-button" class="md:hidden text-gray-700 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <nav id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200 text-center">
+        <a href="index.html" class="block px-4 py-2 text-gray-700 hover-link active-link relative">Home</a>
+        <a href="shop.html" class="block px-4 py-2 text-gray-700 hover-link relative">Shop</a>
+        <a href="blog.html" class="block px-4 py-2 text-gray-700 hover-link relative">Blog</a>
+        <a href="pages.html" class="block px-4 py-2 text-gray-700 hover-link relative">Pages</a>
+        <a href="about.html" class="block px-4 py-2 text-gray-700 hover-link relative">About</a>
+        <a href="contact.html" class="block px-4 py-2 text-gray-700 hover-link relative">Contact</a>
+    </nav>
+</header>
+
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="flex  flex-row ">
+        <div class="follow-link  flex flex-col gap-5  px-3 mt-[200px] mr-[20px] ml-[20px]  ">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+             <a href="#"><i class="fab fa-instagram"></i></a>
+             <a href="#"><i class="fab fa-twitter" ></i></a>
+             <a href="#"><i class="fab fa-linkedin-in"></i></i></a>
+             <a href="#"><i class="fab fa-linkedin-in"></i></i></a>
+            
+         </div>
+    <div class="container mx-auto flex flex-col md:flex-row items-center px-6 pt-6 space-y-6 md:space-y-0 md:space-x-6 md:pt-6">
+      <div class="md:w-1/2">
+        <span class="flex items-center gap-2 text-xm"><div></div>NEW TREND</span>
+        <h1 class="text-6xl md:text-6xl ">Summer Sale Stylish <div class="font-bold">Womens</div></h1>
+        <p class="mt-4 text-sm text-gray-600 underline underline-offset-8">Discover more</p>
+      </div>
+      <div class="md:w-1/2">
+        <img src="images/hero fg.webp" alt="Summer Sale">
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Trending Products Section -->
+  <section class="container mx-auto p-6 my-20">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Women Collection -->
+        <div class="relative">
+            <img src="images/women collection.jpg" alt="Women Collection" class="w-full h-auto object-cover">
+            <div class="absolute bottom-6 left-6">
+                <h2 class="text-xm font-bold text-black">HOT LIST</h2>
+                <h3 class="text-2xl font-bold text-black mt-2"><b>WOMEN</b> COLLECTION</h3>
+                <a href="#" class="text-black underline mt-2 inline-block">SHOP NOW</a>
+            </div>
+        </div>
+        <!-- Men Collection and Kids Collection -->
+        <div class="grid grid-cols-1 gap-6">
+            <!-- Men Collection -->
+            <div class="relative">
+                <img src="images/men collection.jpg" alt="Men Collection" class="w-full h-auto object-cover">
+                <div class="absolute bottom-6 left-6">
+                    <h2 class="text-xm font-bold text-black">HOT LIST</h2>
+                    <h3 class="text-2xl font-bold text-black mt-2"><b>MEN</b> COLLECTION</h3>
+                    <a href="#" class="text-black underline mt-2 inline-block">SHOP NOW</a>
+                </div>
+            </div>
+            <!-- Kids Collection and E-Gift Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Kids Collection -->
+                <div class="relative">
+                    <img src="images/child collection.jpg" alt="Kids Collection" class="w-full h-auto object-cover">
+                    <div class="absolute bottom-6 left-6">
+                        <h2 class="text-xm font-bold text-black">HOT LIST</h2>
+                        <h3 class="text-2xl font-bold text-black mt-2"><b>KIDS</b> COLLECTION</h3>
+                        <a href="#" class="text-black underline mt-2 inline-block">SHOP NOW</a>
+                    </div>
+                </div>
+                <!-- E-Gift Cards -->
+                <div class="relative bg-[#F8EDE3] p-6 flex items-center">
+                    <div>
+                        <h2 class="text-xm font-bold text-black">E-GIFT CARDS</h2>
+                        <p class="text-black mt-2">Surprise someone with the gift they really want.</p>
+                        <a href="#" class="text-black underline mt-2 inline-block">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="block mx-[6%] mt-20 mb-20">
+  <h2 class="text-3xl font-bold text-center mb-6 text-gray-900">OUR TRENDY <b>PRODUCTS</b></h2>
+  <ul class="flex justify-center space-x-4 mb-6">
+      <li class="text-gray-500 hover:text-black cursor-pointer">ALL</li>
+      <li class="text-gray-500 hover:text-black cursor-pointer">NEW ARRIVALS</li>
+      <li class="text-gray-500 hover:text-black cursor-pointer">BEST SELLER</li>
+      <li class="text-gray-500 hover:text-black cursor-pointer">TOP RATED</li>
+  </ul>
+  <div class="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4">
+      <div class="bg-white p-4">
+          <img src="data:image/jpeg;base64,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"
+              alt="Cropped Faux Leather Jacket" class="w-full h-[80%] object-cover rounded-[1px] mb-2">
+          <h3 class="text-lg font-medium mb-1">Cropped Faux Leather Jacket</h3>
+          <p class="text-gray-600 mb-2">$509</p>
+          <div class="flex items-center">
+              <svg class="w-4 h-4 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-1.519 4.674c-.3.922-1.602.922-1.902 0l-1.519-4.674a1 1 0 00-.363-1.118l3.976-2.888c.783-.57 1.17 1.24.588 1.81h-4.914a1 1 0 00-.95-.69l-1.518-4.674z" />
+              </svg>
+              <span class="text-gray-500 ml-1">4.5 stars</span>
+          </div>
+      </div>
+      <div class="bg-white p-4">
+          <img src="https://calvinklein-eu.scene7.com/is/image/CalvinKleinEU/00GMS4S839_BAE_alternate3?wid=781&fmt=jpeg&qlt=95%2C1&op_sharpen=1&resMode=sharp2&op_usm=1%2C1%2C6%2C0&iccEmbed=0&printRes=72"
+              alt="Calvin Shorts" class="w-full h-[80%] object-cover rounded-[1px] mb-2">
+          <h3 class="text-lg font-medium mb-1">Calvin Shorts</h3>
+          <p class="text-gray-600 mb-2">$42</p>
+          <div class="flex items-center">
+              <svg class="w-4 h-4 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-1.519 4.674c-.3.922-1.602.922-1.902 0l-1.519-4.674a1 1 0 00-.363-1.118l3.976-2.888c.783-.57 1.17 1.24.588 1.81h-4.914a1 1 0 00-.95-.69l-1.518-4.674z" />
+              </svg>
+              <span class="text-gray-500 ml-1">4.5 stars</span>
+          </div>
+      </div>
+      <div class="bg-white p-4">
+          <img src="https://calvinklein-eu.scene7.com/is/image/CalvinKleinEU/00040WL260_YAA_alternate1?wid=600&fmt=jpeg&qlt=100%2C1&op_sharpen=1&resMode=sharp2&op_usm=1%2C1%2C6%2C0&iccEmbed=0&printRes=72"
+              alt="Kirby T-Shirt" class="w-full h-[80%] object-cover rounded-[1px] mb-2">
+          <h3 class="text-lg font-medium mb-1">Kirby T-Shirt</h3>
+          <p class="text-gray-600 mb-2">$17</p>
+          <div class="flex items-center">
+              <svg class="w-4 h-4 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-1.519 4.674c-.3.922-1.602.922-1.902 0l-1.519-4.674a1 1 0 00-.363-1.118l3.976-2.888c.783-.57 1.17 1.24.588 1.81h-4.914a1 1 0 00-.95-.69l-1.518-4.674z" />
+              </svg>
+              <span class="text-gray-500 ml-1">4.5 stars</span>
+          </div>
+      </div>
+      <div class="bg-white p-4">
+          <img src="https://www.gulahmedshop.com/media/catalog/product/s/c/scf-43038_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&canvas=2:3&height=825&width=550"
+              alt="Cableknit Shawl" class="w-full h-[80%] object-cover rounded-[1px] mb-2">
+          <h3 class="text-lg font-medium mb-1">Cableknit Shawl</h3>
+          <p class="text-gray-600 mb-2">$99</p>
+          <div class="flex items-center">
+              <svg class="w-4 h-4 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-1.519 4.674c-.3.922-1.602.922-1.902 0l-1.519-4.674a1 1 0 00-.363-1.118l3.976-2.888c.783-.57 1.17 1.24.588 1.81h-4.914a1 1 0 00-.95-.69l-1.518-4.674z" />
+              </svg>
+              <span class="text-gray-500 ml-1">4.5 stars</span>
+          </div>
+      </div>
+      <div class="bg-white p-4">
+          <img src="https://calvinklein-eu.scene7.com/is/image/CalvinKleinEU/K10K112689_PC7_main?wid=463&fmt=jpeg&qlt=100%2C1&op_sharpen=1&resMode=sharp2&op_usm=1%2C1%2C6%2C0&iccEmbed=0&printRes=72"
+              alt="Colorfull Jacket" class="w-full h-[80%] object-cover rounded-[1px] mb-2">
+          <h3 class="text-lg font-medium mb-1">Colorfull Jacket</h3>
+          <p class="text-gray-600 mb-2">$509</p>
+          <div class="flex items-center">
+              <svg class="w-4 h-4 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-1.519 4.674c-.3.922-1.602.922-1.902 0l-1.519-4.674a1 1 0 00-.363-1.118l3.976-2.888c.783-.57 1.17 1.24.588 1.81h-4.914a1 1 0 00-.95-.69l-1.518-4.674z" />
+              </svg>
+              <span class="text-gray-500 ml-1">4.5 stars</span>
+          </div>
+      </div>
+      <div class="bg-white p-4">
+          <img src="https://www.gulahmedshop.com/media/catalog/product/s/m/smart_fit_rib_tank_top_wm-ktp-ss24-104_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&canvas=2:3&height=825&width=550"
+              alt="Shirt in Botanical Cheetah Print" class="w-full h-[80%] object-cover rounded-[1px] mb-2">
+          <h3 class="text-lg font-medium mb-1">Shirt in Botanical Cheetah Print</h3>
+          <p class="text-gray-600 mb-2">$42</p>
+          <div class="flex items-center">
+              <svg class="w-4 h-4 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-1.519 4.674c-.3.922-1.602.922-1.902 0l-1.519-4.674a1 1 0 00-.363-1.118l3.976-2.888c.783-.57 1.17 1.24.588 1.81h-4.914a1 1 0 00-.95-.69l-1.518-4.674z" />
+              </svg>
+              <span class="text-gray-500 ml-1">4.5 stars</span>
+          </div>
+      </div>
+      <div class="bg-white p-4">
+          <img src="https://www.reignboutique.com/cdn/shop/files/ax9pt0auppp89t7zinakx3m0q8g6_1800x1800.jpg?v=1713476534"
+              alt="Cotton Jersey T-Shirt" class="w-full h-[80%] object-cover rounded-[1px] mb-2">
+          <h3 class="text-lg font-medium mb-1">Cotton Jersey T-Shirt</h3>
+          <p class="text-gray-600 mb-2">$17</p>
+          <div class="flex items-center">
+              <svg class="w-4 h-4 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-1.519 4.674c-.3.922-1.602.922-1.902 0l-1.519-4.674a1 1 0 00-.363-1.118l3.976-2.888c.783-.57 1.17 1.24.588 1.81h-4.914a1 1 0 00-.95-.69l-1.518-4.674z" />
+              </svg>
+              <span class="text-gray-500 ml-1">4.5 stars</span>
+          </div>
+      </div>
+      <div class="bg-white p-4">
+          <img src="https://www.gulahmedshop.com/media/catalog/product/r/e/regular_fit_tee_with_aint_i_so_cool_artwork_wm-ktp-ss24-039_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&canvas=2:3&height=825&width=550" alt="Zessi Dresses"
+              class="w-full h-[80%] object-cover rounded-[1px] mb-2">
+          <h3 class="text-lg font-medium mb-1">Zessi Dresses</h3>
+          <p class="text-gray-600 mb-2">$99</p>
+          <div class="flex items-center">
+              <svg class="w-4 h-4 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-1.519 4.674c-.3.922-1.602.922-1.902 0l-1.519-4.674a1 1 0 00-.363-1.118l3.976-2.888c.783-.57 1.17 1.24.588 1.81h-4.914a1 1 0 00-.95-.69l-1.518-4.674z" />
+              </svg>
+              <span class="text-gray-500 ml-1">4.5 stars</span>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- spring section -->
+<!-- <div class="my-20">
+  <img src="https://www.orchardtaunton.co.uk/app/uploads/2020/03/OSC-Spring-Generic-2020-Website-Shopping-Banner-01.jpg"
+      alt="Spring Collection" class="h-full w-full">
+</div> -->
+   <!-- Main Spring Collection Section -->
+   <div class="container mx-auto p-4  bg-gray-100">
+    <h2 class="text-center text-3xl font-bold mb-6 underline mt-[50px]">Dicover <span class="text-black">More</span></h2>
+<div class="container mx-auto p-6 bg-white shadow-lg   pt-[50px]">
+    <div class="flex flex-col lg:flex-row items-center">
+        <div class="lg:w-1/2">
+            <p class="text-red-600 font-semibold  pl-[150px]">DEAL OF THE WEEK</p>
+            <h1 class="text-4xl font-bold mb-4  pl-[150px]">SPRING COLLECTION</h1>
+            <a href="#" class="text-blue-600 underline pl-[150px]">SHOP NOW</a>
+            <div class="flex space-x-4 mt-6  pl-[150px]">
+                <div>
+                    <p class="text-2xl font-bold">241</p>
+                    <p class="text-gray-500">DAYS</p>
+                </div>
+                <div>
+                    <p class="text-2xl font-bold">9</p>
+                    <p class="text-gray-500">HOURS</p>
+                </div>
+                <div>
+                    <p class="text-2xl font-bold">42</p>
+                    <p class="text-gray-500">MINS</p>
+                </div>
+                <div>
+                    <p class="text-2xl font-bold">20</p>
+                    <p class="text-gray-500">SEC</p>
+                </div>
+            </div>
+        </div>
+        <div class="lg:w-1/2 mt-6 lg:mt-0 flex justify-center">
+            <img src="./images/coat.jpg" alt="Spring Collection Coat" class="max-w-full h-auto">
+        </div>
+    </div>
+</div>
+<div class="flex mx-[7%] gap-5 pt-[30px]">
+  <div class="relative w-full h-fit">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoaDLOOBYFlYKrvc9-xnQu989ubZOTMFdFLA&s"
+          alt="Women's T-shirt" class=" h-full w-full object-cover">
+      <div class="absolute bottom-[10%] left-[8%]">
+          <h2 class="text-white text-sm font-bold mb-4">STARTING AT $19</h2>
+          <h1 class="text-white text-lg font-bold mb-2">Women's T-Shirts</h1>
+          <a href="#" class="text-white text-xs">SHOP
+              NOW</a>
+      </div>
+  </div>
+  <div class="relative w-full h-fit">
+      <img src="data:image/jpeg;base64,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"
+          alt="Men's Sportswear" class=" h-full w-full object-cover">
+      <div class="absolute bottom-[10%] left-[8%]">
+          <h2 class="text-black text-sm font-bold mb-4">STARTING AT $39</h2>
+          <h1 class="text-black text-lg font-bold mb-2">Men's Sportswear</h1>
+          <a href="" class="text-black text-xs">SHOP
+              NOW</a>
+      </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+  <div class="text-center text-4xl font-bold mt-20 text-gray-900">LIMITED <b>EDITION</b></div>
+  <section class="flex mt-10 mx-[7%] gap-5 justify-center mb-10">
+    <div class="w-1/2 md:w-1/4">
+        <img src="https://www.urbanmonkey.com/cdn/shop/files/no-logo-black-cap-02.jpg?v=1707736201" alt="Black cap"
+            class="w-full mx-auto">
+        <h3 class="text-gray-600 mt-4">Dresses</h3>
+        <h2 class="text-black text-xl font-bold mb-2">Hosking Blue Area Rug</h2>
+        <p class="text-gray-500">$29</p>
+        <div class="flex items-center mt-2">
+            <span class="text-xs">⭐⭐⭐⭐⭐</span>
+            <span class="ml-2 text-gray-500">8k+ reviews</span>
+        </div>
+
+    </div>
+    <div class="w-1/2 md:w-1/4">
+        <img src="https://outback.life/cdn/shop/products/4_f06ef487-c527-4ee7-a406-8bcd60d47e46.jpg?v=1628665927&width=1080"
+            alt="Black leather bag with stripes" class="w-full mx-auto">
+        <h3 class="text-gray-600 mt-4">Dresses</h3>
+        <h2 class="text-black text-xl font-bold mb-2">Hanneman Pouf</h2>
+        <p class="text-gray-500">$62</p>
+        <div class="flex items-center mt-2">
+            <span class="text-xs">⭐⭐⭐⭐⭐</span>
+            <span class="ml-2 text-gray-500">8k+ reviews</span>
+        </div>
+    </div>
+    <div class="w-1/4 hidden md:block">
+        <img src="https://sehalshop.pk/media/catalog/product/cache/caaaa4dc8d1c0719711d3435bd583438/7/8/78_1_3.jpg"
+            alt="Black leather belt" class="w-full mx-auto">
+        <h3 class="text-gray-600 mt-4">Dresses</h3>
+        <h2 class="text-black text-xl font-bold mb-2">Cushion Futon Slipcover</h2>
+        <p class="text-gray-500">$62</p>
+        <div class="flex items-center mt-2">
+            <span class="text-xs">⭐⭐⭐⭐⭐</span>
+            <span class="ml-2 text-gray-500">8k+ reviews</span>
+        </div>
+    </div>
+    <div class="w-1/4 hidden lg:block">
+        <img src="https://us.tateossian.com/cdn/shop/products/bl7725.png?v=1699273211" alt="Silver bracelet"
+            class="w-full mx-auto">
+        <h3 class="text-gray-600 mt-4">Dresses</h3>
+        <h2 class="text-black text-xl font-bold mb-2">Hub Accent Mirror</h2>
+        <p class="text-gray-500">$17</p>
+        <div class="flex items-center mt-2">
+            <span class="text-xs">⭐⭐⭐⭐⭐</span>
+            <span class="ml-2 text-gray-500">8k+ reviews</span>
+        </div>
+    </div>
+</section>
+
+  <div class="block mb-20">
+    <h1 class="text-center text-4xl font-bold text-gray-900 mt-20">@UOMO</h1>
+    <div class="grid grid-cols-3 gap-2 mt-8 mx-[7%] md:grid-cols-4 xl:grid-cols-6">
+        <div>
+            <img src="https://uomo-nextjs-ecommerce.vercel.app/_next/image?url=%2Fassets%2Fimages%2Finstagram%2Finsta1.jpg&w=256&q=75" alt="Image 1" class="w-full">
+        </div>
+        <div>
+            <img src="https://www.themodestman.com/wp-content/uploads/2019/12/brock-brown-sweater.jpg" alt="Image 2"
+                class="w-full">
+        </div>
+        <div>
+            <img src="https://imgcdn.stablediffusionweb.com/2024/5/3/31e5c668-f694-4c8d-8caa-a53ee562c520.jpg"
+                alt="Image 3" class="w-full">
+        </div>
+        <div>
+            <img src="https://img.freepik.com/premium-photo/girl-is-sitting-front-window-reading-book_783884-44776.jpg"
+                alt="Image 4" class="w-full">
+        </div>
+        <div>
+            <img src="https://uomo-nextjs-ecommerce.vercel.app/_next/image?url=%2Fassets%2Fimages%2Finstagram%2Finsta5.jpg&w=256&q=75" alt="Image 5" class="w-full">
+        </div>
+        <div>
+            <img src="https://uomo-nextjs-ecommerce.vercel.app/_next/image?url=%2Fassets%2Fimages%2Finstagram%2Finsta6.jpg&w=256&q=75" alt="Image 6" class="w-full">
+        </div>
+        <div>
+            <img src="https://uomo-nextjs-ecommerce.vercel.app/_next/image?url=%2Fassets%2Fimages%2Finstagram%2Finsta7.jpg&w=256&q=75"
+                alt="Image 7" class="w-full">
+        </div>
+        <div>
+            <img src="https://dwcdn.nz/dw-images/Freya21/757351/143860_374d7bc741b34447fa914d98afff08b3.jpg"
+                alt="Image 8" class="w-full">
+        </div>
+        <div>
+            <img src="https://capriolas.com/wp-content/uploads/2023/09/Sweater23NAV.jpg" alt="Image 9"
+                class="w-full">
+        </div>
+        <div>
+            <img src="https://image.made-in-china.com/202f0j00uqJiYoDPnvzF/Ladies-Jacket-Trench-Coat-Windproof-Jacket-for-Spring-and-Autumn.webp"
+                alt="Image 10" class="w-full">
+        </div>
+        <div>
+            <img src="https://i.pinimg.com/736x/53/10/aa/5310aac1963a69bcff2d8af8983bb001.jpg" alt="Image 11"
+                class="w-full">
+        </div>
+        <div>
+            <img src="https://westernrise.com/cdn/shop/articles/western-rise-20220217-1881_DxO.jpg?crop=center&height=1200&v=1650559640&width=1200"
+                alt="Image 12" class="w-full">
+        </div>
+
+    </div>
+</div>
+
+  <!-- Footer Section -->
+  <footer class="bg-[#F8EDE3] text-white py-8">
+    <div class="px-[10%] py-16 bg-grey-200">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center mb-8 md:mb-0">
+                <div class="">
+                    <img src="./images/logo evento.png" alt="logo" class="mb-14">
+                    <p class="text-gray-600">1418 River Drive, Suite 35 Cottonhall United States</p>
+                    <a href="mailto:sale@uomo.com" class="text-gray-600 hover:text-gray-800">sale@uomo.com</a>
+                    <p class="text-gray-600">+1 246-345-0695</p>
+                    <div class="flex flex-row items-center mt-7">
+                        <div class="flex h-5 w-5 mr-3 cursor-pointer brightness-0">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                        <div class="flex h-5 w-5 mr-3 cursor-pointer brightness-0">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="flex h-4 w-4 mr-3 cursor-pointer brightness-0">
+                            <a href="#"><i class="fab fa-twitter" ></i></a>
+                        </div>
+                        <div class="flex h-5 w-5 mr-3 cursor-pointer brightness-0">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-row md:flex-row justify-around md:justify-between items-center w-full md:w-auto">
+                <div class="mr-5">
+                    <h3 class="text-gray-800 font-bold mb-4">COMPANY</h3>
+                    <ul class="space-y-2">
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">About Us</a></li>
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">Careers</a></li>
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">Affiliates</a></li>
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">Blog</a></li>
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">Contact Us</a></li>
+                    </ul>
+                </div>
+    
+                <div class="mr-5">
+                    <h3 class="text-gray-800 font-bold mb-4">SHOP</h3>
+                    <ul class="space-y-2">
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">New Arrivals</a></li>
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">Accessories</a></li>
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">Men</a></li>
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">Women</a></li>
+                    </ul>
+                </div>
+    
+                <div class="mr-5 w-max">
+                    <h3 class="text-gray-800 font-bold mb-4">HELP</h3>
+                    <ul class="space-y-2">
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">Customer Service</a></li>
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">My Account</a></li>
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">Find a Store</a></li>
+                        <li><a href="" class="text-gray-600 hover:text-gray-800">Legal & Privacy</a></li>
+                    </ul>
+                </div>
+    
+    
+            </div>
+            <div class="mt-10 md:m-0">
+                <h3 class="text-gray-800 font-bold text-lg mb-4">SUBSCRIBE</h3>
+                <p class="text-gray-600">Be the first to get the latest news about trends, promotions, and much more!
+                </p>
+                <div class="flex bg-black border">
+                    <input type="email    " placeholder="Your email address"
+                        class="w-full px-3 py-2 border-none ">
+                    <button class="bg-white text-black border-none pr-2">Submit</button>
+                </div>
+                <div>
+                    <ul class="  hidden md:block space-x-2  ">
+                        <button><img src="https://img.icons8.com/?size=48&id=62765&format=png" alt=""></button>
+                        <button><img src="https://img.icons8.com/?size=48&id=13611&format=png" alt=""></button>
+                        <button><img src="https://img.icons8.com/?size=50&id=11079&format=png" alt=""></button>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+   
+    </div>
+    </footer>
+  <script>
+    // JavaScript for toggling the mobile menu
+    const menuButton = document.getElementById('menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>

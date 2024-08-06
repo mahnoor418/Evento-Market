@@ -1,0 +1,68 @@
+.hover-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #C32929;
+    bottom: -6px; /* Adjust this to position the line properly */
+    left: 0;
+    transition: width 0.3s ease-in-out;
+}
+.hover-link:hover, .active-link{
+    color: #C32929 !important;
+}
+
+
+.hover-link:hover::after {
+    width: 100%;
+}
+
+.hero-section{
+    background-color: #f5e6e0 ;
+    background-image: url(images/hero\ bg.webp);
+    background-size: contain;
+}
+.hero-section span{
+    color: #C32929;
+}
+.hero-section span div{
+    width: 15px;
+    height: 2px;
+    background-color: #C32929;
+}
+
+.hero-section img{
+    max-width: 50%;
+    height: auto;
+    float: right;
+    clear: both;
+}
+.hero-section h1 {
+    color: #222222;
+}
+.hero-section p{
+    font-size: 12px;
+}
+
+.bg-women-collection {
+    background-image: url('images/women-collection.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.bg-men-collection {
+    background-image: url('images/men-collection.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.bg-kids-collection {
+    background-image: url('images/child-collection.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.shop-banner{
+    background-image: url('https://uomo-nextjs-ecommerce.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fshop%2Fshop_banner_character1.png&w=1920&q=75');
+    background-size: cover;
+    background-position: right -200px  bottom 0;
+    background-repeat: no-repeat;
+}
